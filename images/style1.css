@@ -1,0 +1,164 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* body {
+  background-color: white;
+} */
+
+.sticky {
+  position: sticky;
+  top: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li,
+ul {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+li a:hover,
+#spl:hover {
+  background-color: #111;
+}
+.me1 {
+  padding: 10px;
+  font: bold;
+  font-size: xx-large;
+  text-align: left;
+}
+.items img {
+  box-shadow: -20px 20px 15px grey;
+}
+.me3{
+  padding-top: 50px;
+}
+
+.me2 {
+ 
+  padding: 10px;
+  font-size: large;
+  text-align: left;
+}
+
+#spl {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 15px;
+  padding-right: 40px;
+  margin: 0px;
+  text-decoration: none;
+  background-color: #333;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 0px;
+  padding-top: 20px;
+}
+
+.items {
+  background-color: rgb(246, 247, 249);
+  padding: 20px;
+  margin: 0px;
+  height: 500px;
+  font-size: 30px;
+  padding-top: 100PX;
+}
+
+
+
+#up {
+  text-align: center;
+  padding: 20px;
+  text-size-adjust: 15px;
+  background-color: rgb(246, 247, 249);
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: rgb(246, 247, 249);
+}
+
+.social a {
+  display: block;
+  text-align: center;
+  padding: 15px;
+  margin: 20px;
+  text-decoration: solid;
+  color: black;
+  height: 200px;
+  width: 200px;
+  
+}
+
+.social a:hover {
+  color: rgb(108, 20, 197);
+  border: 2px solid rgb(108, 20, 197);
+}
+
+ .social img{
+height: 200px;
+width: 200;
+ }
+
+ .last {
+  padding: 20px;
+ }
+ .last p{
+  padding: 15px;
+  font-size: large;
+ }
+ h1{
+  text-align: center;
+  padding: 20px;
+  color: rgb(21, 66, 106);
+ }
+
+.slide{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  transition: 1s; 
+}
+main  
+  {
+  margin: auto;
+  margin-top: 10px;
+  width: 60%;
+  height: 400px;
+  box-shadow:1px 2px 10px 2px #909090 ;
+  overflow: hidden;
+  position: relative;
+}
+.btn{
+  margin: 20px;
+  text-align: center;
+  
+}
+.btn button{
+  padding: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
