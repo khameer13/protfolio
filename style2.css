@@ -1,0 +1,83 @@
+
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.hero h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #666;
+    margin: 20px 0;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
+.featured-challenges {
+    max-width: 900px;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.challenge-card {
+    flex-basis: calc(50% - 20px);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.challenge-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.challenge-card h3 {
+    font-size: 24px;
+    color: #333;
+    margin: 10px 0;
+}
+
+.challenge-card p {
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
