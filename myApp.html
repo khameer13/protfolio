@@ -82,6 +82,57 @@
   </div>
   
   <!-- You can add more app details here -->
+  <div class="slideshow-container">
+    <div class="slide">
+      <img src="images/facebook.jpg" alt="Image 1">
+    </div>
+    <div class="slide">
+      <img src="images/facebook.jpg" alt="Image 2">
+    </div>
+    <div class="slide">
+      <img src="images/facebook.jpg" alt="Image 2">
+    </div>
+    <div class="slide">
+      <img src="images/facebook.jpg" alt="Image 2">
+    </div>
+    <!-- ... other slide elements ... -->
+  </div>
+  
+  <style>
+    .slideshow-container {
+      display: flex;
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+      -webkit-overflow-scrolling: touch; /* For smoother scrolling on iOS */
+      height:600px;
+      width: 600px;
+    }
+  
+    .slide {
+      flex: 0 0 50%;
+      scroll-snap-align: start;
+      width: 300px;
+      margin-left: 10px;
+     
+    }
+  
+    img {
+      width: 100%;
+      height: auto;
+    }
+
+    @media (max-width: 768px) {
+    .slide {
+      flex: 0 0 100vw;
+    }
+    .slideshow-container {
+      height: 600px;
+    width: 300px;
+    margin: 14px;
+    }
+  }
+  </style>
+  
   
 </div>
 </body>
