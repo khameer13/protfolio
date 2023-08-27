@@ -148,16 +148,23 @@ div.content {
 .more {
   /* background-color: rgb(246, 247, 249); */
   /* background-color: blue; */
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   margin: 0px;
   /* height: 400px; */
   font-size: 15px;
   
   /* padding-top: 50PX; */
 }
+.more li{
+  padding-bottom: 5px;
+}
+
 #khameer{
   float: right;
-  padding: 20px;
+  height: 200px;
+  width: 200px;
+  margin-left: auto;
 }
 .footer{
   /* padding: 0px; */
@@ -172,21 +179,21 @@ padding-top: 50px;
 
 .social {
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
- 
 }
 
 .social a {
   display: block;
-  text-align: center;
-  padding: 15px;
-  margin: 20px;
+  /* text-align: center; */
+   /* padding: 15px; */
+  /* margin: 20px;  */
   text-decoration: solid;
   color: black;
-padding: 20px;
+  padding-left: 20px;
+  padding-bottom: 15px;
 
 }
 
@@ -256,9 +263,8 @@ main
     padding-bottom: 15px;
   }
   li{
-    padding-top: 15px;
+    padding-bottom: 5px;
     list-style-type: none;
-    
   }
   @media only screen and (max-width: 700px) {
     .fcontainer {
@@ -280,13 +286,18 @@ main
     h3 {
       padding-bottom: 0px;
   }
-  li{
+  /* li{
    padding-left: 25px;
-  }
+  } */
   .social a {
     margin: 10px;
     padding: 0px;
   }
+  .social img{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 5px;
+     }
   main {
 margin-left: 0px;
 margin-top: 40px;
