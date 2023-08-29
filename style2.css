@@ -1,23 +1,25 @@
-
+/* 
 body, h1, h2, h3, p {
     margin: 0;
     padding: 0;
 }
 
 body {
+   
+} */
+
+.projects_section {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
     font-family: Arial, sans-serif;
     background-color: #f7f7f7;
 }
 
-.main {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 0 20px;
-}
-
 .hero {
     text-align: center;
-    padding: 50px 0;
+    /* padding: 50px 0; */
+    padding: 10px 0;
     background-color: #fff;
 }
 
@@ -75,9 +77,36 @@ body {
     margin: 10px 0;
 }
 
+.download-link {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  .download-link:hover {
+    background-color: #0056b3;
+  }
+
+  @media (max-width: 768px) {
+    .featured-challenges {
+        display: flex;
+        flex-direction: column;
+    }
+    .challenge-card {
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    .featured-challenges {
+      margin: auto;
+    }
+}
+/* 
 footer {
     text-align: center;
     background-color: #333;
     color: #fff;
     padding: 10px 0;
-}
+} */
