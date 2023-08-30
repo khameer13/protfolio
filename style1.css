@@ -308,6 +308,9 @@ main
       grid-template-rows: 50% 50%;
       width: 300PX;
     }
+    #khameer{
+      margin-left: 20%;
+    }
     .fmore {
       grid-template-columns: 1fr;
       grid-template-rows:200px 160px 160px;
@@ -342,9 +345,9 @@ height: 250px;
   #mypic{
     padding-top: 30px;
   }
-  h1{
+  /* h1{
     display: none;
-  }
+  } */
   .items{
     padding-top: 0px;
     padding:0px ;

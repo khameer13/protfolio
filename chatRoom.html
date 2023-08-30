@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ChatRoom</title>
     <link rel="stylesheet" href="style1.css" />
   </head>
   <body>
@@ -13,6 +13,35 @@
     <!-- </section> -->
 
 
+    <div style="margin-bottom: 20px;">
+      <p style="width:80%; margin-left: auto; margin-right: auto; font-size:
+        large;">
+        A chat room built upon the User Datagram Protocol (UDP) provides a
+        dynamic platform for real-time communication. By embracing UDP's
+        connectionless nature, this chat room model offers unique advantages and
+        challenges.
+      </p><p style="width:80%; margin-left: auto; margin-right: auto; font-size:
+        large;">
+        UDP's lean approach to data transmission underscores the efficiency of
+        such a chat room. The absence of connection establishment overhead
+        allows messages to be swiftly exchanged between participants, fostering
+        instant interactions. This makes UDP-based chat rooms particularly
+        well-suited for scenarios requiring rapid responses, like multiplayer
+        gaming discussions or live event commentaries.
+
+      </p>
+      <p style="width:80%; margin-left: auto; margin-right: auto; font-size:
+        large;"> Furthermore, the simplicity of UDP lends itself to scalability.
+        As the number of participants increases, a UDP chat room remains
+        resilient due to its reduced server-side complexity. Broadcasting
+        messages to all participants simultaneously is effortless, facilitating
+        lively group conversations without straining the network.</p>
+    </div>
+
+    <div class="download-links">
+      <a class="download-link" href="ChatRoom.pdf" download>Download(PDF)</a>
+      <a class="github-link" href="#">GITHUB</a>
+    </div>
     <main>
 
       <img src="images/chat0.png" class="slide" alt="">
@@ -32,11 +61,53 @@
       </button>
     </div>
 
+    <div style="height: 700px;">
+      <h1>Implemented using the User Datagram Protocol (UDP)</h1>
 
-    <div class="download-links">
-      <a class="download-link" href="FriendVerse.apk" download>Download(PDF)</a>
-      <a class="github-link" href="#">GITHUB</a>
+      <p style="width:80%; margin-left: auto; margin-right: auto; font-size:
+        large;">
+        A chat room implemented using the User Datagram Protocol (UDP) offers a
+        lightweight and efficient communication platform.
+        UDP, being connectionless and not guaranteeing data delivery, is
+        suitable for real-time interactions.
+        This chat room model has both merits and limitations.
+      </p>
+      <p style="width:80%; margin-left: auto; margin-right: auto; font-size:
+        large;">
+        We have developed faculty feedback system to provide feedback in an easy
+        and consistent manner to the college HOD or principal. We call it
+        faculty feedback system which delivers via student staffs interface as
+        online system which is acting as Service Provider.
+      </p>
+
+
+
+      <ol style="width:80%; margin-left: auto; margin-right: auto; font-size:
+        large; margin-top: 20px; ">
+        <li><b>Efficiency: </b> UDP's lack of connection establishment reduces
+          latency, making it ideal for rapid message exchange in a chat room.</li>
+        <li> <b>Low Overhead:</b> With no need for continuous connection
+          tracking, UDP minimizes protocol overhead, conserving network
+          resources.</li>
+        <li><b>Real-time Interaction: </b>The absence of acknowledgment and
+          retransmission allows for immediate message delivery, crucial for
+          lively discussions.</li>
+        <li><b>Scalability: </b>UDP suits large chat rooms, where numerous users
+          can exchange messages without overloading the server.</li>
+        <li><b> Broadcasting:</b> UDP supports broadcasting messages to all
+          participants simultaneously, fostering group conversations.</li>
+        <li><b>Simplicity: </b>The stateless nature of UDP simplifies
+          server-side management, facilitating quick setup and maintenance.</li>
+        <li> <b>Unreliability: </b>UDP's lack of error-checking and reliability
+          features can lead to lost or out-of-order messages, affecting chat
+          continuity.</li>
+        <li><b>Limited Control:</b> Without built-in mechanisms for flow
+          control, UDP may result in congestion if not managed appropriately.</li>
+      </ol>
+
     </div>
+
+
 
     <script src="myscripts.js"></script>
   </body>
