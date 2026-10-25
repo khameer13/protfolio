@@ -1,114 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ChatRoom</title>
-    <link rel="stylesheet" href="style1.css" />
-  </head>
-  <body>
-    <!-- <section class="hero"> -->
-    <h1>CHAT ROOM</h1>
-    <!-- </section> -->
-
-
-    <div style="margin-bottom: 20px;">
-      <p style="width:80%; margin-left: auto; margin-right: auto; font-size:
-        large;">
-        A chat room built upon the User Datagram Protocol (UDP) provides a
-        dynamic platform for real-time communication. By embracing UDP's
-        connectionless nature, this chat room model offers unique advantages and
-        challenges.
-      </p><p style="width:80%; margin-left: auto; margin-right: auto; font-size:
-        large;">
-        UDP's lean approach to data transmission underscores the efficiency of
-        such a chat room. The absence of connection establishment overhead
-        allows messages to be swiftly exchanged between participants, fostering
-        instant interactions. This makes UDP-based chat rooms particularly
-        well-suited for scenarios requiring rapid responses, like multiplayer
-        gaming discussions or live event commentaries.
-
-      </p>
-      <p style="width:80%; margin-left: auto; margin-right: auto; font-size:
-        large;"> Furthermore, the simplicity of UDP lends itself to scalability.
-        As the number of participants increases, a UDP chat room remains
-        resilient due to its reduced server-side complexity. Broadcasting
-        messages to all participants simultaneously is effortless, facilitating
-        lively group conversations without straining the network.</p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chat Room · Mohammed Khameeruddin</title>
+  <meta name="description" content="Real-time group chat built with Node.js and Socket.IO." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f766e'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='28' font-weight='700' fill='white' text-anchor='middle'%3EMK%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html" aria-label="Home"><span class="mono">MK</span><span class="brand-name">Khameer</span></a>
+      <a class="btn small" href="index.html#projects">All projects</a>
     </div>
-
-    <div class="download-links">
-      <a class="download-link" href="ChatRoom.pdf" download>Download(PDF)</a>
-      <a class="github-link" href="https://github.com/khameer13/chatapp">GITHUB</a>
-    </div>
-    <main>
-
-      <img src="images/chat0.png" class="slide" alt="">
-      <img src="images/chat2.png" class="slide" alt="">
-      <img src="images/chat1.png" class="slide" alt="">
-
-
-
-    </main>
-
-    <div class="btn">
-      <button onclick="goPrev()">
-        &#8592
-      </button>
-      <button onclick="goNext()">
-        &#8594
-      </button>
-    </div>
-
-    <div style="height: 700px;">
-      <h1>Implemented using the User Datagram Protocol (UDP)</h1>
-
-      <p style="width:80%; margin-left: auto; margin-right: auto; font-size:
-        large;">
-        A chat room implemented using the User Datagram Protocol (UDP) offers a
-        lightweight and efficient communication platform.
-        UDP, being connectionless and not guaranteeing data delivery, is
-        suitable for real-time interactions.
-        This chat room model has both merits and limitations.
-      </p>
-      <p style="width:80%; margin-left: auto; margin-right: auto; font-size:
-        large;">
-        We have developed faculty feedback system to provide feedback in an easy
-        and consistent manner to the college HOD or principal. We call it
-        faculty feedback system which delivers via student staffs interface as
-        online system which is acting as Service Provider.
-      </p>
-
-
-
-      <ol style="width:80%; margin-left: auto; margin-right: auto; font-size:
-        large; margin-top: 20px; ">
-        <li><b>Efficiency: </b> UDP's lack of connection establishment reduces
-          latency, making it ideal for rapid message exchange in a chat room.</li>
-        <li> <b>Low Overhead:</b> With no need for continuous connection
-          tracking, UDP minimizes protocol overhead, conserving network
-          resources.</li>
-        <li><b>Real-time Interaction: </b>The absence of acknowledgment and
-          retransmission allows for immediate message delivery, crucial for
-          lively discussions.</li>
-        <li><b>Scalability: </b>UDP suits large chat rooms, where numerous users
-          can exchange messages without overloading the server.</li>
-        <li><b> Broadcasting:</b> UDP supports broadcasting messages to all
-          participants simultaneously, fostering group conversations.</li>
-        <li><b>Simplicity: </b>The stateless nature of UDP simplifies
-          server-side management, facilitating quick setup and maintenance.</li>
-        <li> <b>Unreliability: </b>UDP's lack of error-checking and reliability
-          features can lead to lost or out-of-order messages, affecting chat
-          continuity.</li>
-        <li><b>Limited Control:</b> Without built-in mechanisms for flow
-          control, UDP may result in congestion if not managed appropriately.</li>
-      </ol>
-
-    </div>
-
-
-
-    <script src="myscripts.js"></script>
-  </body>
+  </header>
+  <main>
+    <section class="page-head">
+      <div class="wrap narrow">
+        <a class="back" href="index.html#projects">← Back to projects</a>
+        <h1>Chat Room</h1>
+        <p class="meta">Mini project · 6th semester, MVJ College of Engineering · Jan 2023</p>
+        <ul class="tags"><li>Node.js</li><li>Socket.IO</li><li>WebSockets</li><li>JavaScript</li><li>HTML/CSS</li></ul>
+        <div class="cta">
+          <a class="btn primary" href="https://khameer13.github.io/chatapp/" target="_blank" rel="noopener">Live demo</a>
+          <a class="btn" href="https://github.com/khameer13/chatapp" target="_blank" rel="noopener">Code</a>
+          <a class="btn" href="ChatRoom.pdf" target="_blank" rel="noopener">Project report (PDF)</a>
+        </div>
+      </div>
+    </section>
+    <section class="prose">
+      <div class="wrap narrow">
+        <h2>Overview</h2>
+        <p>A real-time group chat. Users join with a name, and every message is pushed instantly to everyone else in the room.</p>
+        <h2>How it works</h2>
+        <ul>
+          <li>A Node.js server runs Socket.IO, which keeps a persistent WebSocket connection open to each browser.</li>
+          <li>The server tracks connected users by socket ID and broadcasts events: someone joined, a new message, someone left.</li>
+          <li>The browser client renders incoming messages on the left, your own on the right, and join/leave notices in the middle.</li>
+        </ul>
+        <h2>2026 update</h2>
+        <ul>
+          <li>Redesigned interface with a join screen, timestamps, typing indicator and online count.</li>
+          <li>Server input limits and safe text rendering; Socket.IO upgraded.</li>
+          <li>Live demo on GitHub Pages: without a server it chats between tabs of the same browser.</li>
+        </ul>
+        <h2>Original version (2023)</h2>
+        <ul class="gallery">
+          <li><button type="button" data-full="assets/screens/chat/1.jpg" data-caption="Entering a name to join"><img src="assets/screens/chat/1.jpg" alt="Entering a name to join" loading="lazy" width="1400" height="875" /></button></li>
+          <li><button type="button" data-full="assets/screens/chat/2.jpg" data-caption="Messages between two users"><img src="assets/screens/chat/2.jpg" alt="Messages between two users" loading="lazy" width="1400" height="875" /></button></li>
+          <li><button type="button" data-full="assets/screens/chat/3.jpg" data-caption="Leave notice"><img src="assets/screens/chat/3.jpg" alt="Leave notice" loading="lazy" width="1400" height="875" /></button></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap"><p>© <span id="year">2026</span> Mohammed Khameeruddin · <a href="index.html">Portfolio</a></p></div></footer>
+  <dialog id="lightbox" class="lightbox" aria-label="Image preview">
+    <button type="button" class="lb-close" aria-label="Close">×</button>
+    <img id="lbImg" alt="" />
+    <p id="lbCaption"></p>
+  </dialog>
+</body>
 </html>
