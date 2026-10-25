@@ -1,141 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>My App Store Page</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .app-header {
-    background-color: #007bff;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .app-content {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  .app-details {
-    display: flex;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  
-  .app-icon {
-    width: 170px;
-    height: 170px;
-    /* margin-right: 20px; */
-  }
-  
-  .app-info {
-    flex: 1;
-  }
-  
-  .app-title {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .app-description {
-    font-size: 16px;
-    color: #777;
-    margin-bottom: 10px;
-  }
-  
-  .install-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #4caf50;
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 18px;
-    transition: background-color 0.3s;
-  }
-  
-  .install-button:hover {
-    background-color: #45a049;
-  }
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FriendVerse · Mohammed Khameeruddin</title>
+  <meta name="description" content="FriendVerse: an Android social app built with Java and Firebase." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f766e'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='28' font-weight='700' fill='white' text-anchor='middle'%3EMK%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
 </head>
 <body>
-<div class="app-header">
-  <h1>Welcome to My App Store Page</h1>
-</div>
-<div class="app-content">
-  <div class="app-details">
-    <img class="app-icon" src="images/logo.jpeg" alt="App Icon">
-    <div class="app-info">
-      <h2 class="app-title">FriendVerse</h2>
-      <p class="app-description">Your Social Universe Unfolded, Ignite Your Social Journey By Sharing Moments And Creating Bonds</p>
-      <a class="install-button" href="FriendVerse" download>Install (apk)</a>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html" aria-label="Home"><span class="mono">MK</span><span class="brand-name">Khameer</span></a>
+      <a class="btn small" href="index.html#projects">All projects</a>
     </div>
-  </div>
-  
-  <!-- You can add more app details here -->
-  <div class="slideshow-container">
-    <div class="slide">
-      <img src="images/facebook.jpg" alt="Image 1">
-    </div>
-    <div class="slide">
-      <img src="images/facebook.jpg" alt="Image 2">
-    </div>
-    <div class="slide">
-      <img src="images/facebook.jpg" alt="Image 2">
-    </div>
-    <div class="slide">
-      <img src="images/facebook.jpg" alt="Image 2">
-    </div>
-    <!-- ... other slide elements ... -->
-  </div>
-  
-  <style>
-    .slideshow-container {
-      display: flex;
-      overflow-x: scroll;
-      scroll-snap-type: x mandatory;
-      -webkit-overflow-scrolling: touch; /* For smoother scrolling on iOS */
-      height:600px;
-      width: 600px;
-    }
-  
-    .slide {
-      flex: 0 0 50%;
-      scroll-snap-align: start;
-      width: 300px;
-      margin-left: 10px;
-     
-    }
-
-
-  
-    img {
-      width: 100%;
-      height: auto;
-    }
-
-    @media (max-width: 768px) {
-    .slide {
-      flex: 0 0 100vw;
-    }
-    .slideshow-container {
-      height: 600px;
-    width: 300px;
-    margin: 14px;
-    }
-  }
-  </style>
-  
-  
-</div>
+  </header>
+  <main>
+    <section class="page-head">
+      <div class="wrap narrow">
+        <a class="back" href="index.html#projects">← Back to projects</a>
+        <div class="app-hero">
+          <img src="assets/screens/friendverse/logo.jpg" alt="FriendVerse app icon" width="400" height="400" />
+          <div>
+            <h1>FriendVerse</h1>
+            <p class="meta">Android app · College project · Jun – Aug 2023</p>
+          </div>
+        </div>
+        <ul class="tags"><li>Java</li><li>Android</li><li>Firebase</li><li>XML</li></ul>
+        <div class="cta">
+          <a class="btn primary" href="FriendVerse.apk" download>Download APK</a>
+        </div>
+      </div>
+    </section>
+    <section class="prose">
+      <div class="wrap narrow">
+        <h2>Overview</h2>
+        <p>A social app for sharing moments and connecting with friends: “Your social universe unfolded.”</p>
+        <h2>What I built</h2>
+        <ul>
+          <li>Designed the Firebase (NoSQL) data model and access rules.</li>
+          <li>Implemented sign-in and authorisation for user access.</li>
+          <li>Used Firebase real-time sync so updates appear live for connected users.</li>
+        </ul>
+        <p class="note">The APK is for Android phones. Your phone may ask you to allow installing apps from this source.</p>
+      </div>
+    </section>
+  </main>
+  <footer class="footer"><div class="wrap"><p>© <span id="year">2026</span> Mohammed Khameeruddin · <a href="index.html">Portfolio</a></p></div></footer>
+  <dialog id="lightbox" class="lightbox" aria-label="Image preview">
+    <button type="button" class="lb-close" aria-label="Close">×</button>
+    <img id="lbImg" alt="" />
+    <p id="lbCaption"></p>
+  </dialog>
 </body>
 </html>

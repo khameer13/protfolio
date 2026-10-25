@@ -1,225 +1,271 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohammed Khameeruddin · Backend Engineer</title>
+  <meta name="description" content="Mohammed Khameeruddin (Khameer): backend engineer in Bengaluru building Node.js and TypeScript services for enterprise integration platforms." />
+  <meta property="og:title" content="Mohammed Khameeruddin · Backend Engineer" />
+  <meta property="og:description" content="Node.js · TypeScript · REST APIs · OpenSearch · AWS. Projects, experience and contact." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230f766e'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='28' font-weight='700' fill='white' text-anchor='middle'%3EMK%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>khameer 13</title>
-    <link rel="stylesheet" href="style1.css" />
-    <link rel="stylesheet" href="style2.css">
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#home" aria-label="Home"><span class="mono">MK</span><span class="brand-name">Khameer</span></a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="navLinks" aria-label="Menu">☰</button>
+      <nav id="navLinks" class="nav-links">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-  </head>
-
-
-  <body>
-    <!-- style1.css for this body -->
-    <nav>
-      <div class="sidebar">
-        <a href="#home">HOME</a>
-        <!-- <a href="https://wa.me/919110804206?text=contact%20info">CONTACT</a> -->
-        <a href="https://drive.google.com/file/d/1R6dJeILHoDpvNWgogNfQmDLNRqHMPEp6/view?usp=drive_link">RESUME</a>
-        <!-- <a href="projects.html">PROJECTS</a> -->
-        <a href="https://github.com/khameer13?tab=repositories">GITHUB</a>
+  <main id="main">
+    <!-- Hero -->
+    <section id="home" class="hero">
+      <div class="wrap">
+        <p class="eyebrow">Backend Engineer · Bengaluru, India</p>
+        <h1>Mohammed Khameeruddin</h1>
+        <p class="lead">
+          I build Node.js and TypeScript services for enterprise integration platforms.
+          Currently <strong>Member Technical Staff 1 at Aquera</strong>, working on the event layer of an identity-lifecycle platform.
+        </p>
+        <ul class="chips" aria-label="Core stack">
+          <li>Node.js</li><li>TypeScript</li><li>REST APIs</li><li>OpenSearch</li><li>AWS</li><li>SQL</li>
+        </ul>
+        <div class="cta">
+          <a class="btn primary" href="#projects">View projects</a>
+          <a class="btn" href="https://drive.google.com/file/d/1R6dJeILHoDpvNWgogNfQmDLNRqHMPEp6/view?usp=drive_link" target="_blank" rel="noopener">Resume</a>
+          <a class="btn" href="https://github.com/khameer13" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn" href="https://www.linkedin.com/in/khameer13/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
       </div>
-    </nav>
-    <div class="content">
-      <div class="container">
-        <div class="items">
-          <p class="me1">KHAMEER 13</p>
-          <p class="me2">STUDENT PURSUING COMPUTER SCIENCE ENGINEERING</p>
-          <p class="me3">
-            This is my portfolio website,as an engineering student pursuing
-            computer science and interested in web
-            development and new
-            technologies. My projects are usually focused on learning new things
-            and showcasing my skill set in this arena
-            by doing projects and building websites. I aim
-            to be a full-stack developer in the coming
-            years.
-            <p class="me3">This blog is intended to showcase my skills,
-              knowledge, and experiences as an Developer.</p>
-          </div>
+    </section>
 
-          <div class="items" id="mypic">
-            <a href="https://github.com/khameer13"> <img
-                src="images/projects.jpeg" alt="IMAGE NOT FOUND!" /> </a>
-          </div>
-        </div>
+    <!-- About -->
+    <section id="about" class="section">
+      <div class="wrap narrow">
+        <h2>About</h2>
+        <p>
+          I'm a backend engineer with 2+ years of experience building Node.js and TypeScript services.
+          At Aquera I work on a platform that turns records from HR and identity systems
+          (Workday, ADP, UKG, Dayforce, Okta, Microsoft Entra ID and others) into one joiner/mover/leaver event format,
+          indexed in OpenSearch and evaluated by monitoring rules.
+        </p>
+        <p>
+          Before that, at Procify (2024–2026), I grew from trainee to backend developer: an OAuth 2.0 secure gateway for SAP
+          integrations, an aggregate query engine, caching for faster responses, and LLM features with LangGraph,
+          FAISS vector search and Neo4j knowledge graphs.
+        </p>
+        <p>
+          I care about clear API and schema contracts, backward compatibility, tests that prove behaviour, and debugging from evidence.
+        </p>
+      </div>
+    </section>
 
-
-
-
-        <main>
-          <!-- <h1> <b>MY CERTIFICATION</b></h1> -->
-          <img src="images/python.jpg" class="slide" alt="">
-          <img src="images/ai.jpg" class="slide" alt="">
-          <img src="images/datascience.jpg" class="slide" alt="">
-        </main>
-
-        <div class="btn">
-          <button onclick="goPrev()">
-            &#8592
-          </button>
-          <button onclick="goNext()">
-            &#8594
-          </button>
-        </div>
-
-<!-- style2.css for this section -->
-<section class="projects_section" id="section_projects">
-          <section class="hero">
-              <h1>Projects </h1>
-              <p>Personal and university projects</p>
-          </section>
-          <section class="featured-challenges">
-              <div class="challenge-card">
-                  <img src="images/instaclone.jpeg" alt="Project 1">
-                  <h3>Instagram Clone</h3>
-                  <p> Technologies used : Java , XML , Firebase , AndroidStudio </p>
-                  <a href="myApp.html" class="cta-button">View Project</a>
-              </div>
-              <div class="challenge-card">
-                  <img src="images/feedbacksyetem.jpeg" alt="Project 4">
-                  <h3>OnlineFeedbackSysytem</h3>
-                  <p>Technologies used : HTML , CSS , JavaScript , vscode</p>
-                  <a href="onlineFeedbackSysytem.html" class="cta-button">View
-                      Project</a>
-              </div>
-
-          </section>
-          <section class="featured-challenges">
-              <div class="challenge-card">
-                  <img src="images/projects.jpeg" alt="Project 3">
-                  <h3>LoginDashboard</h3>
-                  <p> Technologies used : MERN Stack , JWTs , vscode</p>
-                  <a href="LoginDashboardProject.html" class="cta-button">View
-                      Project</a>
-              </div>
-              <div class="challenge-card">
-                  <img src="images/chatrooms.jpeg" alt="Project 2">
-                  <h3>Chat Room</h3>
-                  <p>Technologies used : Socket.IO , Node.JS ,vscode</p>
-                  <a href="chatRoom.html" class="cta-button">View Project</a>
-              </div>
-
-          </section>
-        </section>
-
-        
-
-    
-
-        <!-- <div class="lastpart"> -->
-          <!-- <p id="socialfooter"><b>SOCIAL MEDIA </b></p> -->
-          <div class="social">
-
-
-
-
-            <!-- </a>
-            <a href="https://www.facebook.com/khameerMk"><img
-                src="images/facebook.jpg" alt="FACEBOOK" />
-            </a> -->
-            <!-- <a
-              href="https://www.snapchat.com/add/khmr2135?share_id=euliI57M9xI&locale=en-GB"><img
-                src="images/snap.jpg"
-                alt="SNAP!" /></a> -->
-            <div class="more">
-              <a href="www.linkedin.com/in/khameer13"><img
-                  src="images/linkdn.jpg"
-                  alt="LINKDN" /></a>
-              <a href="https://auth.geeksforgeeks.org/user/khameer_13/practice"><img
-                  src="images/gfg.jpg"
-                  alt="GEEKSFORGEEKS!" /></a>
-              <a href="https://wa.me/919110804206?text=contact%20info"><img
-                  src="images/whatsappLogo.png" 
-                  alt="WHATSAPP!" /></a>
-           </div>
-
-              <div class="more">
-                <!-- <h3>Reach us </h3> -->
-                <ul>
-                  <li><a href="mailto: mohdkhameer@gmail.com">mohdkhameer@gmail.com</a></li>
-                  <li><a href="mailto: khameer2002@gmail.com">khameer2002@gmail.com</a></li>
-                  <li><a href="tel:9110804206">PhoneNo: +91-9110804206</a></li>
-                  <!-- <li style="padding-left: 5px;"> Whitefield,Banglore,</li>
-                  <li style="padding-left: 5px;"> Karnataka,India</li> -->
-
-                  <li><a href="#"> Whitefield,Banglore,</a></li>
-                  <li><a href="#"> Karnataka,India</a></li>
-
-
-                </ul>
-              </div>
-
-             
-              <img id="khameer"
-            src="images/WhatsApp-QR-code-1671161042405.png"
-            alt="NO IMAGE !">
-
-
+    <!-- Experience -->
+    <section id="experience" class="section alt">
+      <div class="wrap narrow">
+        <h2>Experience</h2>
+        <ol class="timeline">
+          <li class="job">
+            <div class="job-head">
+              <h3>Member Technical Staff 1 (MTS 1)</h3>
+              <p class="org">Aquera · Bengaluru · On-site</p>
+              <p class="when">Jun 2026 – Present</p>
             </div>
+            <p>Backend engineer on Aquera's identity-lifecycle event platform (Node.js, TypeScript, AWS), which automates joiner/mover/leaver workflows between HR systems, directories and business apps.</p>
+            <ul>
+              <li>Redesigned the event envelope for the record-to-event and commit APIs; migrated all 12 connector mappers and ~650 test fixtures while keeping the old request shape working behind a deprecation warning.</li>
+              <li>Generated an explicit OpenSearch index mapping (281 fields, nested change history) from the JSON Schema, with a schema-drift test and a post-deploy check script.</li>
+              <li>Fixed index write rejections caused by OpenSearch date auto-detection by declaring the 33 real date fields explicitly.</li>
+              <li>Built and corrected connector mappers and test kits for HCM and identity platforms (Workday, Okta, ADP, Active Directory, Microsoft Entra ID).</li>
+              <li>Diagnosed issues end to end, from a monitoring rule that never loaded to a bulk export blocked by a missing vendor API permission.</li>
+            </ul>
+          </li>
+          <li class="job">
+            <div class="job-head">
+              <h3>Back End Developer</h3>
+              <p class="org">Procify Innovations · Bengaluru · On-site</p>
+              <p class="when">Sep 2024 – Jun 2026</p>
+            </div>
+            <ul>
+              <li>Implemented an OAuth 2.0 secure gateway for SAP integrations.</li>
+              <li>Developed an aggregate query engine for aggregation queries across platform data.</li>
+              <li>Introduced caching on frequently requested data to improve response times.</li>
+              <li>Built LLM features: LangGraph-based chatbots, FAISS vector search, Neo4j knowledge graphs and LLM-driven data visualisations.</li>
+              <li>Fixed bugs, reviewed pull requests, handled production issues and hotfixes, and shipped releases.</li>
+            </ul>
+          </li>
+          <li class="job">
+            <div class="job-head">
+              <h3>Developer Trainee</h3>
+              <p class="org">Procify Innovations · Internship</p>
+              <p class="when">Mar 2024 – Sep 2024</p>
+            </div>
+            <p>Backend development and API integrations: implementing and debugging server-side features, integrating services and improving existing workflows (Node.js, JavaScript, REST APIs, SQL).</p>
+          </li>
+        </ol>
+      </div>
+    </section>
 
-            
+    <!-- Projects -->
+    <section id="projects" class="section">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <p class="section-lead">Personal and university projects. Live demos run in the browser.</p>
+        <div class="grid">
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">💊</div>
+            <h3>TrackMyMeds</h3>
+            <p>Medicine refill tracker for a pharmacy: customers, days of supply left and refill alerts. Static front end with a demo mode, plus an Express API with input validation and tests.</p>
+            <ul class="tags"><li>Node.js</li><li>Express</li><li>JavaScript</li></ul>
+            <div class="links">
+              <a class="btn small primary" href="https://khameer13.github.io/TrackMyMeds/" target="_blank" rel="noopener">Live demo</a>
+              <a class="btn small" href="https://github.com/khameer13/TrackMyMeds" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
 
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">💬</div>
+            <h3>Chat Room</h3>
+            <p>Real-time group chat built with Node.js and Socket.IO: join notices, typing indicator and online count. The live demo chats between browser tabs; run the server for multi-user chat.</p>
+            <ul class="tags"><li>Node.js</li><li>Socket.IO</li><li>WebSockets</li></ul>
+            <div class="links">
+              <a class="btn small primary" href="https://khameer13.github.io/chatapp/" target="_blank" rel="noopener">Live demo</a>
+              <a class="btn small" href="https://github.com/khameer13/chatapp" target="_blank" rel="noopener">Code</a>
+              <a class="btn small" href="chatRoom.html">Details</a>
+            </div>
+          </article>
 
-            <!-- <a href="https://leetcode.com/khameer2002/"><img
-                src="images/leetcode.jpg" alt="LEETCODE!" /></a> -->
-            <!-- <a href="https://www.codechef.com/users/khameer13"><img
-                src="images/codechef.jpg" alt="CODECHEF!" /></a> -->
-            <!-- <a href="https://www.hackerrank.com/khameer2002"><img
-                src="images/hakerrank.jpg" alt="HAKERRANK!" /></a> -->
-            <!-- </div> -->
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">📝</div>
+            <h3>Feedback Aggregation System</h3>
+            <p>College project (team lead): students submit course feedback and faculty see aggregated reports. Later hardened with prepared statements, password hashing and CSRF protection.</p>
+            <ul class="tags"><li>PHP</li><li>MySQL</li><li>HTML/CSS</li></ul>
+            <div class="links">
+              <a class="btn small" href="https://github.com/khameer13/FeedbackAggregationSystem" target="_blank" rel="noopener">Code</a>
+              <a class="btn small" href="onlineFeedbackSysytem.html">Details</a>
+            </div>
+          </article>
 
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">📱</div>
+            <h3>FriendVerse</h3>
+            <p>Android social app: Firebase data model and access rules, sign-in, and real-time sync so updates appear live for connected users.</p>
+            <ul class="tags"><li>Java</li><li>Firebase</li><li>Android</li></ul>
+            <div class="links">
+              <a class="btn small" href="myApp.html">Details</a>
+              <a class="btn small" href="FriendVerse.apk" download>Download APK</a>
+            </div>
+          </article>
 
-            <!-- <footer class="footer">
-              <div class="fcontainer">
-                <div class="fitems fmore">
-                  <div class="more">
-                    <h3>Reach us </h3>
-                    <ul>
-                      <li>khameer2002@gmail.com</li>
-                      <li>+91-9110804206</li>
-                      <li>+91-9019538643</li>
-                      <li>@khameer_13</li>
-                      <li>@khmr2135</li>
-                    </ul>
-                  </div>
-                  <div class="more">
-                    <h3>Products </h3>
-                    <ul>
-                      <li>Certifications</li>
-                      <li>Projects</li>
-                      <li>Resume</li>
-                      <li>Skills</li>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">🔐</div>
+            <h3>Login Dashboard</h3>
+            <p>Full-stack web app with sign-up, login, a protected home page, profile and contact form, using JWT authentication and MongoDB Atlas.</p>
+            <ul class="tags"><li>MongoDB</li><li>Express</li><li>React</li><li>Node.js</li><li>JWT</li></ul>
+            <div class="links">
+              <a class="btn small" href="LoginDashboardProject.html">Details</a>
+            </div>
+          </article>
 
-                    </ul>
-                  </div>
-                  <div class="more">
-                    <h3>Location </h3>
-                    <ul>
-                      <li>Whitefield,</li>
-                      <li>Banglore,</li>
-                      <li>Karnataka,</li>
-                      <li>India</li>
+          <article class="card">
+            <div class="card-icon" aria-hidden="true">➕</div>
+            <h3>Math Quiz</h3>
+            <p>Mental-math game: 15 timed addition and subtraction questions with live score, answer review and personal best.</p>
+            <ul class="tags"><li>JavaScript</li><li>HTML</li><li>CSS</li></ul>
+            <div class="links">
+              <a class="btn small primary" href="https://khameer13.github.io/Quiz_game-Math-/" target="_blank" rel="noopener">Live demo</a>
+              <a class="btn small" href="https://github.com/khameer13/Quiz_game-Math-" target="_blank" rel="noopener">Code</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-                    </ul>
-                  </div>
-                </div>
+    <!-- Skills -->
+    <section id="skills" class="section alt">
+      <div class="wrap narrow">
+        <h2>Skills</h2>
+        <div class="skills">
+          <div><h3>Languages</h3><ul class="chips"><li>JavaScript</li><li>TypeScript</li><li>SQL</li><li>Java</li><li>PHP</li></ul></div>
+          <div><h3>Backend</h3><ul class="chips"><li>Node.js</li><li>Express.js</li><li>REST APIs</li><li>JSON Schema</li><li>OAuth 2.0</li><li>Socket.IO</li></ul></div>
+          <div><h3>Data</h3><ul class="chips"><li>OpenSearch</li><li>MySQL</li><li>MongoDB</li><li>Neo4j</li><li>FAISS</li></ul></div>
+          <div><h3>Cloud &amp; tools</h3><ul class="chips"><li>AWS ECS</li><li>SQS</li><li>Lambda</li><li>EventBridge</li><li>S3</li><li>CloudWatch</li><li>Git</li><li>CI/CD</li></ul></div>
+        </div>
+      </div>
+    </section>
 
-                <div class="fitems" id="rewrite">
-                  <img id="khameer"
-                    src="images/WhatsApp-QR-code-1671161042405.png"
-                    alt="sorry!">
-                </div>
-              </div>
+    <!-- Education & certifications -->
+    <section id="education" class="section">
+      <div class="wrap narrow">
+        <h2>Education</h2>
+        <div class="edu">
+          <h3>Bachelor of Engineering, Computer Science</h3>
+          <p class="org">MVJ College of Engineering, Bengaluru</p>
+          <p class="when">2020 – 2024 · CGPA 8.9</p>
+        </div>
 
-            </footer> -->
-          </div>
+        <h2 class="mt">Certifications</h2>
+        <ul class="certs">
+          <li>
+            <button type="button" class="cert" data-full="assets/certs/python.jpg" data-caption="Programming Fundamentals using Python – Part 1 · Infosys Springboard">
+              <img src="assets/certs/python.jpg" alt="Certificate: Programming Fundamentals using Python – Part 1" loading="lazy" width="1000" height="731" />
+              <span>Programming Fundamentals using Python – Part 1</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="cert" data-full="assets/certs/ai.jpg" data-caption="Introduction to Artificial Intelligence · Infosys Springboard">
+              <img src="assets/certs/ai.jpg" alt="Certificate: Introduction to Artificial Intelligence" loading="lazy" width="1000" height="752" />
+              <span>Introduction to Artificial Intelligence</span>
+            </button>
+          </li>
+          <li>
+            <button type="button" class="cert" data-full="assets/certs/data-science.jpg" data-caption="Introduction to Data Science · Infosys Springboard">
+              <img src="assets/certs/data-science.jpg" alt="Certificate: Introduction to Data Science" loading="lazy" width="1000" height="746" />
+              <span>Introduction to Data Science</span>
+            </button>
+          </li>
+        </ul>
+        <p class="muted small">Infosys Springboard · July 2022</p>
+      </div>
+    </section>
 
-          <!-- </div> -->
-          <script src="myscripts.js"></script>
-        </body>
+    <!-- Contact -->
+    <section id="contact" class="section alt">
+      <div class="wrap narrow center">
+        <h2>Contact</h2>
+        <p>Open to backend and Node.js engineering roles. The quickest way to reach me is email or LinkedIn.</p>
+        <div class="cta center">
+          <a class="btn primary" href="mailto:khameer2002@gmail.com">khameer2002@gmail.com</a>
+          <a class="btn" href="https://www.linkedin.com/in/khameer13/" target="_blank" rel="noopener">LinkedIn</a>
+          <a class="btn" href="https://github.com/khameer13" target="_blank" rel="noopener">GitHub</a>
+        </div>
+      </div>
+    </section>
+  </main>
 
-      </html>
+  <footer class="footer">
+    <div class="wrap">
+      <p>© <span id="year">2026</span> Mohammed Khameeruddin · <a href="https://github.com/khameer13/protfolio">Source</a></p>
+    </div>
+  </footer>
+
+  <dialog id="lightbox" class="lightbox" aria-label="Image preview">
+    <button type="button" class="lb-close" aria-label="Close">×</button>
+    <img id="lbImg" alt="" />
+    <p id="lbCaption"></p>
+  </dialog>
+</body>
+</html>
